@@ -1,2 +1,4 @@
 $ ->
-  $("body").append("<span>bbb</span>")
+  t = "abc"
+  h = $("<h1 />").text(t)
+  $("body").append(h)
